@@ -33,7 +33,7 @@ jsUser.greeting = function(){
     
 }
 jsUser.greetingTwo = function(){
-    console.log(`Hellow JS user, ${this.name}`);
+    console.log(`Hellow JS user, ${this.name}`); // String interpolation
     
 }
 
