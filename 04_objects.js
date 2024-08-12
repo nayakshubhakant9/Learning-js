@@ -49,11 +49,36 @@ const users = [
 users[1].email
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); 
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); 
 
+// object - destructure , JSON 7 API
+const course ={
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Shubhakant"
+}
 
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course
+//console.log(courseInstructor);
+console.log(instructor);
+
+// JSON - we can write as a object or strings also
+
+// {
+//     "name": "shubhakant",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {},
+]
 
