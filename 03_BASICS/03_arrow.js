@@ -12,7 +12,7 @@ const user = {
 // user.username = "vinay"
 // user.welcomeMessage()
 
-// console.log(this); // refers to an empty context. in DOM - window function
+// console.log(this); // refers to an empty context. in DOM - window object
 
 // function chai() {
 //     let username = "shubhakant"
